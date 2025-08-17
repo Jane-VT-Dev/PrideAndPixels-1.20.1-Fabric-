@@ -17,3 +17,8 @@ https://sites.google.com/view/q-craft-site/main
 
 (soon) https://modrinth.com/user/Jane-VT-Dev
 
+fabric_version=0.92.6+1.20.1
+mod_version=1.1.1-BETA
+minecraft_version=1.20.1
+
+
