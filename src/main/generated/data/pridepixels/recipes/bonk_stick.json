@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "pridepixels:mlm_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ASA",
+    " A "
+  ],
+  "result": {
+    "item": "pridepixels:bonk_stick"
+  },
+  "show_notification": true
+}

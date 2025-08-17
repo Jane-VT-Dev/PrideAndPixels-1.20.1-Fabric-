@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:diamond_axe"
+    },
+    "G": {
+      "item": "pridepixels:genderfluid_pickaxe"
+    },
+    "I": {
+      "item": "pridepixels:genderfluid_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "minecraft:diamond_shovel"
+    }
+  },
+  "pattern": [
+    "IRI",
+    "SGA",
+    "IRI"
+  ],
+  "result": {
+    "item": "pridepixels:drill"
+  },
+  "show_notification": true
+}

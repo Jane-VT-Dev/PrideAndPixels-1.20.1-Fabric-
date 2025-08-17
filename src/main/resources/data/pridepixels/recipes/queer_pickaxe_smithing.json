@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "pridepixels:queer_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "result": {
+    "item": "pridepixels:queer_pickaxe"
+  },
+  "template": {
+    "item": "pridepixels:queer_smithing_template"
+  }
+}

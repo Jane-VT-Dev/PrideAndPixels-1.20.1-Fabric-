@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "pridepixels",
+	"version": "${version}",
+	"name": "PridePixels",
+	"description": "PRIDE AND PIXELS IS A GEAR MOD!",
+	"authors": [
+		"June"
+	],
+	"contact": {
+		"homepage": "https://www.twitch.tv/junevtuber",
+		"sources": "https://github.com/Jane-VT-Dev"
+	},
+	"license": "All right reserved!",
+	"icon": "assets/pridepixels/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.june.PridePixels"
+		],
+		"fabric-datagen": [
+			"com.june.PridePixelsDataGenerator"
+		]
+	},
+	"mixins": [
+		"pridepixels.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

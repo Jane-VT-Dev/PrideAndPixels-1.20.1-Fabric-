@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "pridepixels:pan_shovel"
+    },
+    "O": {
+      "item": "pridepixels:pan_ingot"
+    }
+  },
+  "pattern": [
+    " O ",
+    "O0O",
+    " O "
+  ],
+  "result": {
+    "item": "pridepixels:frying_pan"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "pridepixels:demigender_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "pridepixels:demigender_sword"
+  },
+  "template": {
+    "item": "pridepixels:queer_smithing_template"
+  }
+}

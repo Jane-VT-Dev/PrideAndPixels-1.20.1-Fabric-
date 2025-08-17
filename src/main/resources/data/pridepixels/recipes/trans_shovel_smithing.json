@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "pridepixels:trans_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "result": {
+    "item": "pridepixels:trans_shovel"
+  },
+  "template": {
+    "item": "pridepixels:queer_smithing_template"
+  }
+}

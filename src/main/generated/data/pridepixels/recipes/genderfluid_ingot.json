@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "4": {
+      "item": "pridepixels:black_ingot"
+    },
+    "5": {
+      "item": "pridepixels:blue_ingot"
+    },
+    "K": {
+      "item": "pridepixels:pink_ingot"
+    },
+    "L": {
+      "item": "pridepixels:purple_ingot"
+    },
+    "P": {
+      "item": "pridepixels:white_ingot"
+    }
+  },
+  "pattern": [
+    " K ",
+    "4LP",
+    " 5 "
+  ],
+  "result": {
+    "item": "pridepixels:genderfluid_ingot"
+  },
+  "show_notification": true
+}

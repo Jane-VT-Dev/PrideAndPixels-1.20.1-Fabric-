@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "pridepixels:pan_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "result": {
+    "item": "pridepixels:pan_helmet"
+  },
+  "template": {
+    "item": "pridepixels:queer_smithing_template"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "pridepixels:lesbian_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "result": {
+    "item": "pridepixels:lesbian_hoe"
+  },
+  "template": {
+    "item": "pridepixels:queer_smithing_template"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "pridepixels:magenta_ingot"
+    },
+    "I": {
+      "item": "pridepixels:orange_ingot"
+    },
+    "L": {
+      "item": "pridepixels:purple_ingot"
+    },
+    "N": {
+      "item": "pridepixels:red_ingot"
+    },
+    "P": {
+      "item": "pridepixels:white_ingot"
+    }
+  },
+  "pattern": [
+    " N ",
+    "FPI",
+    " L "
+  ],
+  "result": {
+    "item": "pridepixels:lesbian_ingot"
+  },
+  "show_notification": true
+}

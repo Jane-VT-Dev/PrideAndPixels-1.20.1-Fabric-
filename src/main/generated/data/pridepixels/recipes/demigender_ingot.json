@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "pridepixels:gray_ingot"
+    },
+    "D": {
+      "item": "pridepixels:light_gray_ingot"
+    },
+    "P": {
+      "item": "pridepixels:white_ingot"
+    },
+    "Q": {
+      "item": "pridepixels:yellow_ingot"
+    }
+  },
+  "pattern": [
+    " D ",
+    "QPQ",
+    " A "
+  ],
+  "result": {
+    "item": "pridepixels:demigender_ingot"
+  },
+  "show_notification": true
+}

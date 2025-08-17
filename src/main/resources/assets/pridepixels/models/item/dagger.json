@@ -1,0 +1,39 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "pridepixels:item/dagger"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-175.99, -49.68, -159.06],
+			"translation": [0, -3, -0.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [69.13, -54.46, 26]
+		},
+		"firstperson_righthand": {
+			"rotation": [138.12, -81, 10.89]
+		},
+		"firstperson_lefthand": {
+			"rotation": [15.19, 70.84, 116.47],
+			"translation": [0, 0, 0.75]
+		},
+		"ground": {
+			"rotation": [-9.89, 44.2, -127.87]
+		},
+		"gui": {
+			"translation": [7.5, 7, 0],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"rotation": [0, 0, -128],
+			"translation": [0, 7.5, 0]
+		},
+		"fixed": {
+			"translation": [7, 6.25, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

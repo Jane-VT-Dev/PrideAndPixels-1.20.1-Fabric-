@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "pridepixels:mlm_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "pridepixels:mlm_sword"
+  },
+  "template": {
+    "item": "pridepixels:queer_smithing_template"
+  }
+}

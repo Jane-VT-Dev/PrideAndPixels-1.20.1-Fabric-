@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "pridepixels:aroace_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "item": "pridepixels:aroace_leggings"
+  },
+  "template": {
+    "item": "pridepixels:queer_smithing_template"
+  }
+}

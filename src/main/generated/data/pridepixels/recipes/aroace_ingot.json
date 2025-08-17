@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "9": {
+      "item": "pridepixels:green_ingot"
+    },
+    "E": {
+      "item": "pridepixels:lime_ingot"
+    },
+    "L": {
+      "item": "pridepixels:purple_ingot"
+    },
+    "P": {
+      "item": "pridepixels:white_ingot"
+    }
+  },
+  "pattern": [
+    " 9 ",
+    "LPL",
+    " E "
+  ],
+  "result": {
+    "item": "pridepixels:aroace_ingot"
+  },
+  "show_notification": true
+}

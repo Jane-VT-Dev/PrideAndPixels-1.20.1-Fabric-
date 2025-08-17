@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "pridepixels:orange_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "pridepixels:orange_ingot"
+  }
+}

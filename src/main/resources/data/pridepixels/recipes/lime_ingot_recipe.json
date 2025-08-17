@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pridepixels:brown_ingot"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    }
+  ],
+  "result": {
+    "item": "pridepixels:lime_ingot",
+    "count": 1
+  },
+  "show_notification": true
+}

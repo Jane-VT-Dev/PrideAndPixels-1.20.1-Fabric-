@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "pridepixels:mlm_block"
+        }
+    ],
+    "result": {
+        "item": "pridepixels:mlm_ingot",
+        "count": 9
+    },
+    "show_notification": true
+}

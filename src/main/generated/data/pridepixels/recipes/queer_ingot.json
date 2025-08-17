@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "item": "pridepixels:aroace_ingot"
+    },
+    "3": {
+      "item": "pridepixels:bi_ingot"
+    },
+    "7": {
+      "item": "pridepixels:demigender_ingot"
+    },
+    "8": {
+      "item": "pridepixels:genderfluid_ingot"
+    },
+    "B": {
+      "item": "pridepixels:lesbian_ingot"
+    },
+    "G": {
+      "item": "pridepixels:mlm_ingot"
+    },
+    "H": {
+      "item": "pridepixels:nonbinary_ingot"
+    },
+    "J": {
+      "item": "pridepixels:pan_ingot"
+    },
+    "O": {
+      "item": "pridepixels:trans_ingot"
+    }
+  },
+  "pattern": [
+    "1B8",
+    "G73",
+    "HOJ"
+  ],
+  "result": {
+    "item": "pridepixels:queer_ingot"
+  },
+  "show_notification": true
+}

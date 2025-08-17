@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pridepixels:item/light_blue_ingot"
+  }
+}

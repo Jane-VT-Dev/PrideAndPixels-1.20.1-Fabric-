@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "1": {
+      "item": "pridepixels:trans_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "111",
+    "1S1",
+    "111"
+  ],
+  "result": {
+    "item": "pridepixels:magic_wand"
+  },
+  "show_notification": true
+}

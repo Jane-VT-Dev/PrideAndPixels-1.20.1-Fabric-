@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:nether_star"
+    },
+    "T": {
+      "item": "pridepixels:queer_ingot"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DTD",
+    "DDD"
+  ],
+  "result": {
+    "item": "pridepixels:queer_smithing_template"
+  },
+  "show_notification": true
+}

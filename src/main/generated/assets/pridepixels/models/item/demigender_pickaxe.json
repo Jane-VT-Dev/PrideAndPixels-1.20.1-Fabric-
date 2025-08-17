@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "pridepixels:item/demigender_pickaxe"
+  }
+}

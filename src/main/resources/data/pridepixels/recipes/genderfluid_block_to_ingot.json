@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "pridepixels:genderfluid_block"
+        }
+    ],
+    "result": {
+        "item": "pridepixels:genderfluid_ingot",
+        "count": 9
+    },
+    "show_notification": true
+}

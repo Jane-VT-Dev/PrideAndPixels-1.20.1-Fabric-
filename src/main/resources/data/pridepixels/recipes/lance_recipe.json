@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " nG",
+        " / ",
+        "GN "
+    ],
+    "key": {
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "G": {
+            "item": "minecraft:gold_block"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "pridepixels:lance",
+        "count": 1
+    }
+}

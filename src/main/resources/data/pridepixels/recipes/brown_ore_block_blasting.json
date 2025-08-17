@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "pridepixels:raw_brown_ore_block"
+    },
+    "result": "pridepixels:brown_block",
+    "experience": 1,
+    "cookingtime": 150
+}

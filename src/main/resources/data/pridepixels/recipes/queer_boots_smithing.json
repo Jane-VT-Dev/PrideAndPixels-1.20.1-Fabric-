@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "pridepixels:queer_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "result": {
+    "item": "pridepixels:queer_boots"
+  },
+  "template": {
+    "item": "pridepixels:queer_smithing_template"
+  }
+}

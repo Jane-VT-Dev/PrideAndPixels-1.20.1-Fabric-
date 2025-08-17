@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:shears"
+    },
+    "I": {
+      "item": "pridepixels:demigender_sword"
+    },
+    "a": {
+      "item": "pridepixels:demigender_ingot"
+    }
+  },
+  "pattern": [
+    "a0a",
+    "aIa",
+    "aaa"
+  ],
+  "result": {
+    "item": "pridepixels:dagger"
+  },
+  "show_notification": true
+}

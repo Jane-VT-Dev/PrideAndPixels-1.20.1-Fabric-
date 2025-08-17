@@ -1,0 +1,42 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "pridepixels:item/scythe"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-26.75, -90, 0],
+			"translation": [0, 5.75, 3.75],
+			"scale": [1.6, 1.6, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-26.75, 90, 0],
+			"translation": [0, 2.75, 2.5],
+			"scale": [1.6, 1.6, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, -74.25, -124.75],
+			"translation": [2.5, 2.75, 0],
+			"scale": [1.6, 1.6, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-48, 85, 0],
+			"translation": [6, 3.5, 0],
+			"scale": [1.6, 1.6, 1]
+		},
+		"ground": {
+			"scale": [2, 2, 1]
+		},
+		"head": {
+			"rotation": [10.38, -9.85, -133.15],
+			"translation": [2, 31.25, 3.25],
+			"scale": [3, 3, 1]
+		},
+		"fixed": {
+			"translation": [3.75, 4.5, 0],
+			"scale": [3, 3, 1]
+		}
+	}
+}
