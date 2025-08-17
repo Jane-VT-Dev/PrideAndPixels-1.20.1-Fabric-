@@ -2,7 +2,8 @@
 
 this is a mod made by JuneVtuber/Jane-VT-Dev.
 
-All right go to Jane/June and HeatFromSapphire.
+All right go to Jane/June and HeatFromSapphire. 
+[MIT License Copyright (c) 2025 Jane-VT-Dev]
 
 Coded by Jane.
 
@@ -15,3 +16,4 @@ https://sites.google.com/view/q-craft-site/main
 (soon) https://legacy.curseforge.com/members/jane_vt_dev/projects
 
 (soon) https://modrinth.com/user/Jane-VT-Dev
+
