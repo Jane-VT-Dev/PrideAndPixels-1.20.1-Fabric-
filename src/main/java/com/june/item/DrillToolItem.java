@@ -1,12 +1,15 @@
 package com.june.item;
 
+import com.june.util.ModTags;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -29,20 +32,7 @@ public class DrillToolItem extends Item {
     @Override
     public boolean isSuitableFor(BlockState state) {
         return
-            state.isOf(Blocks.STONE) ||
-                        state.isOf(Blocks.DIRT) ||
-                        state.isOf(Blocks.SAND) ||
-                        state.isOf(Blocks.DIORITE) ||
-                        state.isOf(Blocks.GRANITE) ||
-                        state.isOf(Blocks.ANDESITE) ||
-                        state.isOf(Blocks.DEEPSLATE)||
-                        state.isOf(Blocks.COBBLESTONE) ||
-                        state.isOf(Blocks.COBBLED_DEEPSLATE) ||
-                        state.isOf(Blocks.GRAVEL) ||
-                        state.isOf(Blocks.DRIPSTONE_BLOCK) ||
-                        state.isOf(Blocks.NETHERRACK) ||
-                        state.isOf(Blocks.TUFF) ||
-                        state.isOf(Blocks.END_STONE);
+                state.isIn(ModTags.Blocks.DRILL_MINABLE);
 
 
     }
@@ -65,6 +55,10 @@ public class DrillToolItem extends Item {
         super.appendTooltip(stack, world, tooltip, context);
     }
 
+    @Override
+    public boolean canMine(BlockState state, World world, BlockPos pos, PlayerEntity miner) {
 
-
+        return
+                state.isIn(ModTags.Blocks.DRILL_MINABLE);
+    }
 }
