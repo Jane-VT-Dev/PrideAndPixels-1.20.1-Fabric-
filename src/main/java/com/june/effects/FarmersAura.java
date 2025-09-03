@@ -7,6 +7,8 @@ import net.minecraft.entity.damage.DamageSources;
 import net.minecraft.entity.damage.DamageTypes;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -21,6 +23,8 @@ public class FarmersAura extends StatusEffect {
 
     @Override
     public boolean canApplyUpdateEffect(int duration, int amplifier) {
+
+
         return true;
     }
 
@@ -35,6 +39,9 @@ public class FarmersAura extends StatusEffect {
                     }else entity.setFrozenTicks(50);
         }
     }
+        entity.addStatusEffect(new StatusEffectInstance(StatusEffects.LUCK, 30, 0, false, false, false));
+
         super.applyUpdateEffect(entity, amplifier);
+
     }
 }

@@ -28,6 +28,22 @@ public class ModEffects {
             new Popular(StatusEffectCategory.BENEFICIAL, 0x36ebab));
 
 
+    public static final RegistryEntry<StatusEffect> STRONG_BUT_SLOW = registerStatusEffect("strong_but_slow",
+            new StrongButSlow(StatusEffectCategory.BENEFICIAL, 0x36ebab));
+
+    public static final RegistryEntry<StatusEffect> ANTI_GRAVITY = registerStatusEffect("anti_gravity",
+            new AntiGravity(StatusEffectCategory.BENEFICIAL, 0x36ebab));
+
+
+    public static final RegistryEntry<StatusEffect> MERLING = registerStatusEffect("merling",
+            new Merling(StatusEffectCategory.BENEFICIAL, 0x36ebab));
+
+
+    public static final RegistryEntry<StatusEffect> SPECIAL = registerStatusEffect("special",
+            new Special(StatusEffectCategory.BENEFICIAL, 0x36ebab));
+
+
+
 
     private static RegistryEntry<StatusEffect> registerStatusEffect(String name, StatusEffect statusEffect) {
         return Registry.registerReference(Registries.STATUS_EFFECT, Identifier.of(PridePixels.MOD_ID, name), statusEffect);

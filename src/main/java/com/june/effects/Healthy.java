@@ -25,11 +25,12 @@ public class Healthy extends StatusEffect {
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
 
         if(entity.getHealth()<=3.0f){
-            entity.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 0,false,false,false));
+            entity.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100, amplifier,false,false,false));
 
         }
 
         super.applyUpdateEffect(entity, amplifier);
+
     }
 
     }

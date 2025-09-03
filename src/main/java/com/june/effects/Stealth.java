@@ -26,11 +26,12 @@ public class Stealth extends StatusEffect {
 
 
         if (entity.isSneaking()){
-            entity.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 30, 1,false,false,false));
-            entity.addStatusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 80, 2,false,false,false));
+            entity.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 30, amplifier+1,false,false,false));
+            entity.addStatusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 80, amplifier+2,false,false,false));
 
         }
 
         super.applyUpdateEffect(entity, amplifier);
+
     }
 }

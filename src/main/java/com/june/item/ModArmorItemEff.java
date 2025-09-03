@@ -19,34 +19,34 @@ public class ModArmorItemEff extends ArmorItem {
             (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
 
                     .put(ModArmorMaterials.AROACE, new StatusEffectInstance(ModEffects.HEAT_FROM_FIRE.value(), 100, 0,
-                            false, false, true))
-
-                    .put(ModArmorMaterials.BI, new StatusEffectInstance(ModEffects.HEALTHY.value(), 1000, 0,
-                            false, false, true))
-
-                    .put(ModArmorMaterials.DEMIGENDER, new StatusEffectInstance(ModEffects.STEALTH.value(), 1000, 1,
-                            false, false, true))
-
-                    .put(ModArmorMaterials.GENDERFLUID, new StatusEffectInstance(ModEffects.FARMERS_AURA.value(), 100, 1,
-                            false, false, true))
-
-                    .put(ModArmorMaterials.LESBIAN, new StatusEffectInstance(ModEffects.POPULAR.value(), 100, 1,
-                            false, false, true))
-
-                    .put(ModArmorMaterials.MLM, new StatusEffectInstance(StatusEffects.SPEED, 100, 1,
                             false, false, false))
 
-                    .put(ModArmorMaterials.NONBINARY, new StatusEffectInstance(StatusEffects.SPEED, 100, 1,
-                            false, false, true))
+                    .put(ModArmorMaterials.BI, new StatusEffectInstance(ModEffects.HEALTHY.value(), 1000, 0,
+                            false, false, false))
 
-                    .put(ModArmorMaterials.PAN, new StatusEffectInstance(StatusEffects.SPEED, 100, 1,
-                            false, false, true))
+                    .put(ModArmorMaterials.DEMIGENDER, new StatusEffectInstance(ModEffects.STEALTH.value(), 1000, 0,
+                            false, false, false))
 
-                    .put(ModArmorMaterials.TRANS, new StatusEffectInstance(StatusEffects.SPEED, 100, 1,
-                            false, false, true))
+                    .put(ModArmorMaterials.GENDERFLUID, new StatusEffectInstance(ModEffects.FARMERS_AURA.value(), 100, 0,
+                            false, false, false))
 
-                    .put(ModArmorMaterials.QUEER, new StatusEffectInstance(StatusEffects.SPEED, 100, 2,
-                            false, false, true))
+                    .put(ModArmorMaterials.LESBIAN, new StatusEffectInstance(ModEffects.POPULAR.value(), 100, 0,
+                            false, false, false))
+
+                    .put(ModArmorMaterials.MLM, new StatusEffectInstance(ModEffects.STRONG_BUT_SLOW.value(), 100, 0,
+                            false, false, false))
+
+                    .put(ModArmorMaterials.NONBINARY, new StatusEffectInstance(StatusEffects.SPEED, 100, 2,
+                            false, false, false))
+
+                    .put(ModArmorMaterials.PAN, new StatusEffectInstance(ModEffects.MERLING.value(), 100, 0,
+                            false, false, false))
+
+                    .put(ModArmorMaterials.TRANS, new StatusEffectInstance(ModEffects.ANTI_GRAVITY.value(), 100, 0,
+                            false, false, false))
+
+                    .put(ModArmorMaterials.QUEER, new StatusEffectInstance(ModEffects.SPECIAL.value(), 100, 0,
+                            false, false, false))
 
                     .build();
 

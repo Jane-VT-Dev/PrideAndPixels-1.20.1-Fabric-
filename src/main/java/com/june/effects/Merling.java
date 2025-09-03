@@ -6,8 +6,8 @@ import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 
-public class Heat_From_Fire_Effect extends StatusEffect {
-    public Heat_From_Fire_Effect(StatusEffectCategory statusEffectCategory, int color) {
+public class Merling extends StatusEffect {
+    public Merling(StatusEffectCategory statusEffectCategory, int color) {
         super(statusEffectCategory, color);
     }
 
@@ -21,9 +21,10 @@ public class Heat_From_Fire_Effect extends StatusEffect {
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
 
 
-       entity.addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 3, amplifier,false,false,false));
-
-
+       if (entity.isSubmergedInWater()) {
+           entity.setAir(entity.getMaxAir());
+           entity.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 3, amplifier + 1, false, false, false));
+       }
         super.applyUpdateEffect(entity, amplifier);
 
     }

@@ -23,11 +23,11 @@ public class Popular extends StatusEffect {
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
 
 
-        if (entity.isSneaking()){
-            entity.addStatusEffect(new StatusEffectInstance(StatusEffects.HERO_OF_THE_VILLAGE, 30, 1,false,false,false));
 
-        }
+            entity.addStatusEffect(new StatusEffectInstance(StatusEffects.HERO_OF_THE_VILLAGE, 30, amplifier,false,false,false));
+
 
         super.applyUpdateEffect(entity, amplifier);
+
     }
 }
