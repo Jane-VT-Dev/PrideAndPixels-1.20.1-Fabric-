@@ -1,6 +1,7 @@
 package com.june;
 
 import com.june.blocks.ModBlocks;
+import com.june.effects.ModEffects;
 import com.june.item.*;
 import com.june.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
@@ -29,5 +30,6 @@ public class PridePixels implements ModInitializer {
 		ModHoes.registerModHoes();
 		ModArmors.registerModArmors();
 		ModSpecialWeapons.registerModWeapons();
+		ModEffects.registerEffects();
 	}
 	}

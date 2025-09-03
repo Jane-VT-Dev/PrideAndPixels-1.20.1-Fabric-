@@ -1,5 +1,6 @@
 package com.june.item;
 
+import com.june.effects.ModEffects;
 import com.june.materials.ModArmorMaterials;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -17,23 +18,23 @@ public class ModArmorItemEff extends ArmorItem {
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
 
-                    .put(ModArmorMaterials.AROACE, new StatusEffectInstance(StatusEffects.SPEED, 100, 1,
+                    .put(ModArmorMaterials.AROACE, new StatusEffectInstance(ModEffects.HEAT_FROM_FIRE.value(), 100, 0,
                             false, false, true))
 
-                    .put(ModArmorMaterials.BI, new StatusEffectInstance(StatusEffects.SPEED, 100, 1,
+                    .put(ModArmorMaterials.BI, new StatusEffectInstance(ModEffects.HEALTHY.value(), 1000, 0,
                             false, false, true))
 
-                    .put(ModArmorMaterials.DEMIGENDER, new StatusEffectInstance(StatusEffects.SPEED, 100, 1,
+                    .put(ModArmorMaterials.DEMIGENDER, new StatusEffectInstance(ModEffects.STEALTH.value(), 1000, 1,
                             false, false, true))
 
-                    .put(ModArmorMaterials.GENDERFLUID, new StatusEffectInstance(StatusEffects.SPEED, 100, 1,
+                    .put(ModArmorMaterials.GENDERFLUID, new StatusEffectInstance(ModEffects.FARMERS_AURA.value(), 100, 1,
                             false, false, true))
 
-                    .put(ModArmorMaterials.LESBIAN, new StatusEffectInstance(StatusEffects.SPEED, 100, 1,
+                    .put(ModArmorMaterials.LESBIAN, new StatusEffectInstance(ModEffects.POPULAR.value(), 100, 1,
                             false, false, true))
 
                     .put(ModArmorMaterials.MLM, new StatusEffectInstance(StatusEffects.SPEED, 100, 1,
-                            false, false, true))
+                            false, false, false))
 
                     .put(ModArmorMaterials.NONBINARY, new StatusEffectInstance(StatusEffects.SPEED, 100, 1,
                             false, false, true))

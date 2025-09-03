@@ -1,0 +1,14 @@
+{
+  "type": "garnished:lime_dye_blowing",
+  "ingredients": [
+    {
+      "item": "pridepixels:brown_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "pridepixels:lime_ingot",
+      "count": 1
+    }
+  ]
+}

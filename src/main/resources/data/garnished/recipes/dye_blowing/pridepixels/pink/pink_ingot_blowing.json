@@ -1,0 +1,14 @@
+{
+  "type": "garnished:pink_dye_blowing",
+  "ingredients": [
+    {
+      "item": "pridepixels:brown_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "pridepixels:pink_ingot",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "garnished:white_dye_blowing",
+  "ingredients": [
+    {
+      "item": "pridepixels:brown_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "pridepixels:white_ingot",
+      "count": 1
+    }
+  ]
+}
