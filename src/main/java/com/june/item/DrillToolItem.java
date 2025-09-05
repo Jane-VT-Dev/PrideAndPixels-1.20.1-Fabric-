@@ -61,4 +61,5 @@ public class DrillToolItem extends Item {
         return
                 state.isIn(ModTags.Blocks.DRILL_MINABLE);
     }
+
 }

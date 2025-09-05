@@ -181,6 +181,16 @@
   "item.pridepixels.drill" : "Drill",
   "item.pridepixels.battle_axe": "Bi Battle Axe",
 
+  "effect.pridepixels.heat_from_fire": "Heat from Fire",
+  "effect.pridepixels.healthy": "Healthy",
+  "effect.pridepixels.stealth": "Stealth",
+  "effect.pridepixels.farmers_aura": "Farmers Aura",
+  "effect.pridepixels.popular": "Popular",
+  "effect.pridepixels.strong_but_slow": "Strong but Slow",
+  "effect.pridepixels.anti_gravity": "Anti Gravity",
+  "effect.pridepixels.merling": "Merling",
+  "effect.pridepixels.special": "Special",
+
   "itemgroup.pridepixels.smithing_template": "Ingredients",
   "upgrade.minecraft.queer_upgrade": "Queer Upgrade",
   "item.minecraft.smithing_template.queer_upgrade.applies_to": "Netherite Equipment",
