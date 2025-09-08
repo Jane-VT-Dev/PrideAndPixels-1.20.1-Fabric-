@@ -15,4 +15,5 @@ public class ModTags {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(PridePixels.MOD_ID, name));
         }
     }
+
 }

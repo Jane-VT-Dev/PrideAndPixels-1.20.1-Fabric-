@@ -29,9 +29,9 @@ public class Special extends StatusEffect {
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
 
 
-        entity.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 3, 1, false, false, false));
-        entity.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 3, 0, false, false, false));
-        entity.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 30, 1, false, false, false));
+        entity.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 100, 1, false, false, false));
+        entity.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 300, 0, false, false, false));
+        entity.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 1, false, false, false));
 
 
 
@@ -46,5 +46,12 @@ public class Special extends StatusEffect {
         entity.setGlowing(true);
 
         super.onApplied(entity, attributes, amplifier);
+    }
+
+    @Override
+    public void onRemoved(LivingEntity entity, AttributeContainer attributes, int amplifier) {
+
+        entity.setGlowing(false);
+        super.onRemoved(entity, attributes, amplifier);
     }
 }
